@@ -1,0 +1,343 @@
+<html>
+
+	<head>
+	</head>
+
+		<body>
+			<script>
+				function presente (a){
+						let b,c,e;
+								for(i=0;i<6;i++){
+										var d;
+										d=a;
+										e=d.length;
+										if(i==0){
+												c='Yo ';
+												if(d.charAt(e-2)=='a'){
+														b = new RegExp('ar');
+														var newString = d.replace(b,'o ');
+													}
+
+												if(d.charAt(e-2)=='e'){
+														b = new RegExp('er');
+														var newString = d.replace(b,'o  ');
+													}
+												if(d.charAt(e-2)=='i'){
+														b = new RegExp('ir');
+														var newString = d.replace(b,'o  ');
+													}
+											}
+
+										if(i==1){
+											c='Tu ';
+											if(d.charAt(e-2)=='a'){
+													b = new RegExp('ar');
+													var newString = d.replace(b,'as');
+												}
+											if(d.charAt(e-2)=='e'){
+													b = new RegExp('er');
+													var newString = d.replace(b,'es');
+												}
+												if(d.charAt(e-2)=='i'){
+													b = new RegExp('ir');
+													var newString = d.replace(b,'es');
+												}
+										}
+
+										if(i==2){
+											c='El ';
+												if(d.charAt(e-2)=='a'){
+													b = new RegExp('ar');
+													var newString = d.replace(b,'a ');
+												}
+												if(d.charAt(e-2)=='e'){
+													b = new RegExp('er');
+													var newString = d.replace(b,'e ');
+												}
+												if(d.charAt(e-2)=='i'){
+													b = new RegExp('ir');
+													var newString = d.replace(b,'e ');
+												}
+									}
+
+										if(i==3){
+											c='Nosotros ';
+												if(d.charAt(e-2)=='a'){
+													b = new RegExp('ar');
+													var newString = d.replace(b,'amos');
+												}
+												if(d.charAt(e-2)=='e'){
+													b = new RegExp('er');
+													var newString = d.replace(b,'emos');
+												}
+												if(d.charAt(e-2)=='i'){
+													b = new RegExp('ir');
+													var newString = d.replace(b,'imos');
+												}
+										}
+
+										if(i==4){
+											c='Vosotros ';
+												if(d.charAt(e-2)=='a'){
+													b = new RegExp('ar');
+													var newString = d.replace(b,'áis');
+												}
+												if(d.charAt(e-2)=='e'){
+													b = new RegExp('er');
+													var newString = d.replace(b,'éis');
+												}
+												if(d.charAt(e-2)=='i'){
+													b = new RegExp('ir');
+													var newString = d.replace(b,'ís');
+												}
+										}
+
+										if(i==5){
+											c='Ellos ';
+												if(d.charAt(e-2)=='a'){
+													b = new RegExp('ar');
+													var newString = d.replace(b,'an');
+												}
+												if(d.charAt(e-2)=='e'){
+													b = new RegExp('er');
+													var newString = d.replace(b,'en');
+												}
+												if(d.charAt(e-2)=='i'){
+													b = new RegExp('ir');
+													var newString = d.replace(b,'en');
+										}
+									}
+									document.write(c+newString+'<br>');
+								}
+				}
+
+				function presenteP (a){
+					let b,c;
+							for(i=0;i<6;i++){
+									var d;
+									d=a;
+									e=d.length;
+									if(i==0){
+											c='Yo ';
+											if(d.charAt(e-2)=='a'){
+													b = new RegExp('ar');
+													var newString = d.replace(b,'é ');
+												}
+
+											if(d.charAt(e-2)=='e'){
+													b = new RegExp('er');
+													var newString = d.replace(b,'í  ');
+												}
+											if(d.charAt(e-2)=='i'){
+													b = new RegExp('ir');
+													var newString = d.replace(b,'í ');
+												}
+										}
+
+									if(i==1){
+										c='Tu ';
+										if(d.charAt(e-2)=='a'){
+												b = new RegExp('ar');
+												var newString = d.replace(b,'aste');
+											}
+										if(d.charAt(e-2)=='e'){
+												b = new RegExp('er');
+												var newString = d.replace(b,'este');
+											}
+											if(d.charAt(e-2)=='i'){
+												b = new RegExp('ir');
+												var newString = d.replace(b,'iste');
+											}
+									}
+
+									if(i==2){
+										c='El ';
+											if(d.charAt(e-2)=='a'){
+												b = new RegExp('ar');
+												var newString = d.replace(b,'ó ');
+											}
+											if(d.charAt(e-2)=='e'){
+												b = new RegExp('er');
+												var newString = d.replace(b,'ó ');
+											}
+											if(d.charAt(e-2)=='i'){
+												b = new RegExp('ir');
+												var newString = d.replace(b,'ó ');
+											}
+								}
+
+									if(i==3){
+										c='Nosotros ';
+											if(d.charAt(e-2)=='a'){
+												b = new RegExp('ar');
+												var newString = d.replace(b,'amos');
+											}
+											if(d.charAt(e-2)=='e'){
+												b = new RegExp('er');
+												var newString = d.replace(b,'imos');
+											}
+											if(d.charAt(e-2)=='i'){
+												b = new RegExp('ir');
+												var newString = d.replace(b,'imos');
+											}
+									}
+
+									if(i==4){
+										c='Vosotros ';
+											if(d.charAt(e-2)=='a'){
+												b = new RegExp('ar');
+												var newString = d.replace(b,'áistes');
+											}
+											if(d.charAt(e-2)=='e'){
+												b = new RegExp('er');
+												var newString = d.replace(b,'ísteis');
+											}
+											if(d.charAt(e-2)=='i'){
+												b = new RegExp('ir');
+												var newString = d.replace(b,'ísteis');
+											}
+									}
+
+									if(i==5){
+										c='Ellos ';
+											if(d.charAt(e-2)=='a'){
+												b = new RegExp('ar');
+												var newString = d.replace(b,'aron');
+											}
+											if(d.charAt(e-2)=='e'){
+												b = new RegExp('er');
+												var newString = d.replace(b,'ieron');
+											}
+											if(d.charAt(e-2)=='i'){
+												b = new RegExp('ir');
+												var newString = d.replace(b,'ieron');
+									}
+								}
+								document.write(c+newString+'<br>');
+							}
+				}
+
+				function futuro (a){
+					let b,c;
+							for(i=0;i<6;i++){
+									var d;
+									d=a;
+									e=d.length;
+									if(i==0){
+											c='Yo ';
+											if(d.charAt(e-2)=='a'){
+													b = new RegExp('ar');
+													var newString = d.replace(b,'aré');
+												}
+
+											if(d.charAt(e-2)=='e'){
+													b = new RegExp('er');
+													var newString = d.replace(b,'eré');
+												}
+											if(d.charAt(e-2)=='i'){
+													b = new RegExp('ir');
+													var newString = d.replace(b,'iré');
+												}
+										}
+
+									if(i==1){
+										c='Tu ';
+										if(d.charAt(e-2)=='a'){
+												b = new RegExp('ar');
+												var newString = d.replace(b,'arás');
+											}
+										if(d.charAt(e-2)=='e'){
+												b = new RegExp('er');
+												var newString = d.replace(b,'erás');
+											}
+											if(d.charAt(e-2)=='i'){
+												b = new RegExp('ir');
+												var newString = d.replace(b,'irás');
+											}
+									}
+
+									if(i==2){
+										c='El ';
+											if(d.charAt(e-2)=='a'){
+												b = new RegExp('ar');
+												var newString = d.replace(b,'ará');
+											}
+											if(d.charAt(e-2)=='e'){
+												b = new RegExp('er');
+												var newString = d.replace(b,'erá');
+											}
+											if(d.charAt(e-2)=='i'){
+												b = new RegExp('ir');
+												var newString = d.replace(b,'irá');
+											}
+								}
+
+									if(i==3){
+										c='Nosotros ';
+											if(d.charAt(e-2)=='a'){
+												b = new RegExp('ar');
+												var newString = d.replace(b,'aremos');
+											}
+											if(d.charAt(e-2)=='e'){
+												b = new RegExp('er');
+												var newString = d.replace(b,'eremos');
+											}
+											if(d.charAt(e-2)=='i'){
+												b = new RegExp('ir');
+												var newString = d.replace(b,'iremos');
+											}
+									}
+
+									if(i==4){
+										c='Vosotros ';
+											if(d.charAt(e-2)=='a'){
+												b = new RegExp('ar');
+												var newString = d.replace(b,'aréis');
+											}
+											if(d.charAt(e-2)=='e'){
+												b = new RegExp('er');
+												var newString = d.replace(b,'eréis');
+											}
+											if(d.charAt(e-2)=='i'){
+												b = new RegExp('ir');
+												var newString = d.replace(b,'iréis');
+											}
+									}
+
+									if(i==5){
+										c='Ellos ';
+											if(d.charAt(e-2)=='a'){
+												b = new RegExp('ar');
+												var newString = d.replace(b,'arán');
+											}
+											if(d.charAt(e-2)=='e'){
+												b = new RegExp('er');
+												var newString = d.replace(b,'erán');
+											}
+											if(d.charAt(e-2)=='i'){
+												b = new RegExp('ir');
+												var newString = d.replace(b,'irán');
+									}
+								}
+								document.write(c+newString+'<br>');
+							}
+				}
+
+				let pal,t;
+
+				pal=prompt('inserte verbo regular en infinitivo ','');
+				t=prompt('insierte tiempo verbal (A:presente P:presente perfecto F:futuro)','');
+
+				if(t=='a' || t=='A'){
+					presente(pal);
+				}
+				if(t=='p' || t=='P'){
+					presenteP(pal);
+				}
+				if(t=='F' || t=='f'){
+					futuro(pal);
+				}
+
+			</script>
+		</body>
+</html>
